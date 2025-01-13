@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    text-align: left;
+}
+    
+body{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+main{
+    margin-top: 100px;
+}
+button{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(245, 245, 245);
+    border: rgb(166, 13, 172) solid 5px;
+    color: rgb(175, 47, 214);
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 36px;
+    transition: 1s;
+    box-shadow: rgb(214, 30, 144) 0px 0px 20px;
+}
+button:hover{
+    background-color: rgba(243, 243, 243, 0.938);
+}
+#paragraph{
+    color: rgb(247, 0, 255, 0.452);
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 50px;
+}
+.shop{
+    margin-top: 25px;
+
+}
+.shop button{
+    margin-top: 25px;
+
+}
+.animation > .block{
+    display: inline-block;
+    color: rgba(247, 0, 255, 0.452);
+    margin-top: 100px;
+    font-size: 70px;
+    font-family: 'Times New Roman', sans-serif;
+    text-shadow: rgb(162, 0, 255) 0px 0px 10px;
+}
+#slash{
+    animation: slash 5s both infinite;
+}
+@keyframes slash {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    10%{opacity: 0;}
+}
